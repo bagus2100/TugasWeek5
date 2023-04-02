@@ -3,6 +3,7 @@ class Perhitungan{
         this.data = data
     }
 
+// OOP
     hitungTotalUmur(){
         this.totalUmur = 0
         for (let i = 0; i < data.length; i++){
@@ -29,6 +30,7 @@ class Perhitungan{
         })
     }
 
+// Asyncronus
     asyncHitungTotalSangu = (data) =>{
         return new Promise((resolve,reject) =>{
             this.totalSangu = 0
