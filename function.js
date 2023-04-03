@@ -45,8 +45,8 @@ class Perhitungan{
         Promise.all([this.asyncHitungTotalUmur(this.data), this.asyncHitungTotalSangu(this.data)]).then((result) =>{
             for(let cek of result){
                 console.log(cek)
+            }
             console.log("Hitung Selesai")
-        }
         })
     }
 }
